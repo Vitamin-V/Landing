@@ -7,3 +7,5 @@
 >  npm info gulp version
 
 проверка версии Gulp
+
+* проверка обновления
