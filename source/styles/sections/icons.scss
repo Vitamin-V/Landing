@@ -1,0 +1,15 @@
+.icon {
+    margin: auto auto 25px auto;
+}
+
+.icon-client {
+    @include sprite($client);
+}
+
+.icon-idea {
+    @include sprite($idea);
+}
+
+.icon-winer {
+    @include sprite($winer);
+}

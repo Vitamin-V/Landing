@@ -9,7 +9,11 @@
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
-        padding: 31px 0 22px;
+        padding: 10px 0 10px;
+    }
+
+    .logo__picture {
+        width: 150px;
     }
 }
 
@@ -46,11 +50,12 @@
             
             &__fb {
                 font-size: 1.5rem;
-                line-height: 1;
+                padding-bottom: 5px;
             }
 
             &__inst {
                 font-size: 1.5rem;
+                padding-bottom: 5px;
             } 
         }
     }

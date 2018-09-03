@@ -1,6 +1,6 @@
 .hero {
-    height: 1000px;
-    padding: 200px 0;
+    min-height: 60px;
+    padding: 150px 0;
     text-align: center;
     color: #fff;
     background: #ccc url('../images/hero-bg.jpg') center/cover no-repeat;
@@ -10,6 +10,8 @@
       font-weight: bold;
       font-size: 3rem;
       line-height: 1;
+      letter-spacing: 2px;
+      text-shadow: 1px 1px 2px black, 0 0 1em rgb(85, 85, 85);
     }
   
     &__title {
@@ -17,6 +19,8 @@
       margin-bottom: 27px;
       font-family: $ff-main;
       font-weight: 200;
+      letter-spacing: 2px;
+      text-shadow: 1px 1px 2px black, 0 0 1em rgb(85, 85, 85);
     }
   
     .button--text-uppercase {
@@ -24,6 +28,6 @@
       border-radius: 8px;
       font-size: 1.5rem;
       font-weight: bold;
-      letter-spacing: 1px;
+      letter-spacing: 2px;
     }
   }
